@@ -7,7 +7,7 @@
   <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>vsrkp-selenium-snippets</name>
+  <name>vsrkp-selenium4features-snippets</name>
   <url>http://maven.apache.org</url>
 
   <properties>
