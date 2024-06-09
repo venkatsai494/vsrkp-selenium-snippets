@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.locators.RelativeLocator;
 
-public class FirstClass {
+public class RelativeLocatorExample {
 
     public static void main(String[] args) {
         WebDriver d = new ChromeDriver(); // This shows in Selenium 4 has an alternative WebDriver Manager of Boni Garcia which was used to instantiate the browser driver without configuring it using System.setProperty("webdriver.chrome.driver", "ChromeDriverPath\\chromedriver.exe");
