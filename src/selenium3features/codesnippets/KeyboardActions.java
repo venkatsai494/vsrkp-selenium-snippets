@@ -6,6 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.awt.*;
+import java.awt.datatransfer.StringSelection;
 import java.awt.event.KeyEvent;
 
 public class KeyboardActions {
@@ -30,6 +31,15 @@ public class KeyboardActions {
         r.keyPress(KeyEvent.VK_NUMPAD7);
         r.keyRelease(KeyEvent.VK_NUMPAD7);
         r.keyRelease(KeyEvent.VK_ALT);
+//      Say for example you want to paste anything that is copied for which you would be doing the following
+        StringSelection s = new StringSelection("This is the text which is copied in clipboard by using robot class");
+        Toolkit.getDefaultToolkit().getSystemClipboard().setContents(s, null);
+        //If we do not have the above two lines then the clipboard would not be having the text that we have written
+        r.keyPress(KeyEvent.VK_CONTROL);
+        r.keyPress(KeyEvent.VK_V);
+        r.keyRelease(KeyEvent.VK_V);
+        r.keyRelease(KeyEvent.VK_CONTROL);
+
     }
 
 }
