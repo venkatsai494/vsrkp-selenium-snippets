@@ -39,3 +39,58 @@
 
 **Use Case:** Detect and handle JavaScript alerts, confirms, and prompts.<br>
 **Example:** Automatically accepting or dismissing alerts during test execution.
+
+### Blocking Requests to Certain Domains:
+
+**Use Case:** Prevent certain types of requests (e.g., ads, tracking scripts) from loading to test the impact on performance or user experience.<br>
+**Example:** Blocking requests to ad networks to measure page load improvements.
+
+### Capturing Network HAR Files:
+
+**Use Case:** Generate HTTP Archive (HAR) files to capture and analyze the network traffic of a web page.<br>
+**Example:** Exporting HAR files for performance analysis or troubleshooting network-related issues.
+
+### Simulating User Geolocation:
+
+**Use Case:** Set the geolocation coordinates to simulate a user's physical location.<br>
+**Example:** Testing location-based services and features such as maps or localized content.
+
+### Handling WebSocket Traffic:
+
+**Use Case:** Monitor and interact with WebSocket connections.<br>
+**Example:** Capturing WebSocket messages for applications that use real-time communication, such as chat applications or live feeds.
+
+### Accessing Browser Storage:
+
+**Use Case:** Directly access and manipulate IndexedDB, sessionStorage, and localStorage.<br>
+**Example:** Setting pre-defined application state or verifying storage data.
+
+### Capturing Page Coverage:
+
+**Use Case:** Measure which lines of code are executed to determine unused JavaScript and CSS.<br>
+**Example:** Identifying and removing unused code to improve page performance.
+
+### Interacting with Browser Security Settings:
+
+**Use Case:** Modify browser security settings to test behavior under different security policies.<br>
+**Example:** Testing the impact of different Content Security Policies (CSPs) on web application functionality.
+
+### Intercepting and Modifying HTTP Response Bodies:
+
+**Use Case:** Capture and modify HTTP response bodies before they are processed by the browser.<br>
+**Example:** Injecting custom scripts or modifying content on the fly for testing purposes.
+
+### Managing Browser Contexts and Profiles:
+
+**Use Case:** Create and switch between different browser contexts and profiles.<br>
+**Example:** Testing applications under different user profiles with varying settings and extensions.
+
+### Accessing Browser Logs:
+
+**Use Case:** Capture browser logs, including console logs, performance logs, and security logs.<br>
+**Example:** Analyzing browser logs to debug issues related to security or performance warnings.
+
+### Emulating Vision Deficiencies:
+
+**Use Case:** Simulate different types of vision deficiencies (e.g., color blindness) to ensure accessibility.<br>
+**Example:** Testing how your application appears to users with various vision impairments.
