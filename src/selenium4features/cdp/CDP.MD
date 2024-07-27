@@ -1,5 +1,7 @@
 # Chrome DevTools Protocol
 
+We can go through functionality of each of the Domain from [Chrome DevTools Protocol](https://chromedevtools.github.io/devtools-protocol/) page
+
 ### Performance Profiling:
 
 **Use Case:** Collect performance metrics such as page load times, CPU usage, memory consumption, and more.<br>
