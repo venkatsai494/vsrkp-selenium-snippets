@@ -17,7 +17,7 @@ We can either use `devTools.send(command)` or `driver.executeCdpCommand()` metho
 ### Emulating Devices and Network Conditions:
 
 **Use Case:** Simulate different device types (mobile, tablet) and network conditions (slow 3G, offline).<br>
-**Example:** Testing responsive design by [emulating various screen sizes](/EmulateDevices.java) and testing application behavior under different network conditions.
+**Example:** Testing responsive design by [emulating various screen sizes](src/selenium4features/cdp/EmulateDevices.java) and testing application behavior under different network conditions.
 
 ### Capturing and Analyzing Performance Metrics:
 
