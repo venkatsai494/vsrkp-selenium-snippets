@@ -57,7 +57,7 @@ We can either use `devTools.send(command)` or `driver.executeCdpCommand()` metho
 ### Simulating User Geolocation:
 
 **Use Case:** Set the geolocation coordinates to simulate a user's physical location.<br>
-**Example:** Testing location-based services and features such as maps or localized content.
+**Example:** Testing [location-based](GeoLocation.java) services and features such as maps or localized content.
 
 ### Handling WebSocket Traffic:
 
