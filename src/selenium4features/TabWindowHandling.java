@@ -12,9 +12,11 @@ public class TabWindowHandling {
     public static void main(String[] args) throws InterruptedException {
         WebDriver d = new ChromeDriver();
         d.manage().window().maximize();
-        d.get("https://www.salesforce.com/in/");
+        d.get("https://cloud.google.com/");
         System.out.println(d.getTitle());
-        d.findElement(By.xpath("//a[contains(text(),'Start free trial')]")).click();
+        d.findElement(By.xpath("//a[contains(text(),'Get started for free')]")).click();
+        System.out.println(d.getTitle());
+
         
 
     }
