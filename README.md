@@ -12,4 +12,4 @@ This repository is intended to learn the Selenium Capabilities in isolation.
 [Selenium Interview Questions](https://www.qafox.com/1500-selenium-interview-questions/)
 
 * Challenges in Selenium
-* 
+* Xpath and CSS
