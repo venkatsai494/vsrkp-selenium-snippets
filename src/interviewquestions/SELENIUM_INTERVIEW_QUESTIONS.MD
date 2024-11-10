@@ -6,3 +6,4 @@
 * How to handle shadow dom elements using Selenium.
 * Different types of exceptions in Selenium
 * What are listeners in Selenium
+* Waits in Selenium
