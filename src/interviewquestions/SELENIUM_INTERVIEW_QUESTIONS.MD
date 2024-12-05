@@ -8,3 +8,6 @@
 * What are listeners in Selenium
 * Waits in Selenium
 * How to handle iframes in Selenium
+* What is the difference between Selenium jars and Selenium Standalone server?
+* What is difference between Xpath and CSS selector and which one you will choose
+* What are Desired Capabilities in Selenium and why do we use it?
