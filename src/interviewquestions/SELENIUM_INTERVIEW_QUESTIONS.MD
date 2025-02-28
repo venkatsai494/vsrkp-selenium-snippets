@@ -11,3 +11,4 @@
 * What is the difference between Selenium jars and Selenium Standalone server?
 * What is difference between Xpath and CSS selector and which one you will choose
 * What are Desired Capabilities in Selenium and why do we use it?
+* Difference between hard assertions and soft assertions
